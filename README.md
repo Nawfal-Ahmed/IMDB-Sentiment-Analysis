@@ -11,13 +11,13 @@ NLP preprocessing: nltk (tokenize, stopwords, PorterStemmer)
 
 Feature extraction: TfidfVectorizer
 
-Models: LogisticRegression, MultinomialNB, LinearSVC
+Models: LogisticRegression, LinearSVC
 
 Evaluation: accuracy_score, classification_report, confusion_matrix
 
 Utilities: GridSearchCV, Counter, re, warnings
 
-Dataset: Loaded via pd.read_csv() (so likely a CSV text dataset).
+Dataset: IMDB movie review with sentiment 
 
 Workflow:
 
@@ -29,7 +29,7 @@ Generate word clouds & data distribution plots
 
 Convert text → vectors using TF-IDF
 
-Train classification models: Logistic Regression, Linear SVM
+Train classification models: Logistic Regression, Linear SVM , Tuned Linear SVM
 
 Evaluate using accuracy, classification reports, confusion matrix
 
